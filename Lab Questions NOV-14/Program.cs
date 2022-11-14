@@ -104,26 +104,28 @@
 
 //...............................................................
 
+//using Lab_Questions_NOV_14;
+
+//var DOB = new DateOfBirth();
+
+//char flag = 'y';
+
+
+//while (flag == 'y')
+//{
+
+//    DOB.Evaluate();
+//    Console.WriteLine();
+//    Console.WriteLine("Do you want to continue(y/n)?");
+//    flag = char.Parse(Console.ReadLine());
+//    Console.WriteLine();
+//}
+
+//.....................................
+
+
 using Lab_Questions_NOV_14;
 
-var DOB = new DateOfBirth();
+var flight = new FlightfareEOD();
 
-
-
-
-
-char flag = 'y';
-
-
-while (flag == 'y')
-{
-
-    DOB.Evaluate();
-    Console.WriteLine();
-    Console.WriteLine("Do you want to continue(y/n)?");
-    flag = char.Parse(Console.ReadLine());
-    Console.WriteLine();
-}
-
-
-
+flight.Assign();
