@@ -1,21 +1,49 @@
-﻿//using Lab_Questions_NOV_14;
+﻿using Lab_Questions_NOV_14;
 
-//string[] arr = new string[10];
+string[] arr = new string[10];
 
-//var names = new Name();
+int choice;
 
-//names.EnterData();
+var names = new Name();
 
-//names.RSort();
+char flag = 'y';
 
-//names.search();
+Console.WriteLine("1.Ascending sort 2. Descending Sort 3.Search 4.Split 5.duplicates 6.Length of each names");
+Console.Write("Enter the choice : ");
+choice = int.Parse(Console.ReadLine());
+while (flag == 'y')
+{
 
-//names.Split();
+switch (choice)
+{
+	case 1:
+        names.ASort();
+        break;
+    case 2:
+        names.RSort();
+        break;
+    case 3:
+        names.search();
+        break;
+    case 4:
+        names.Split();
+        break;
+    case 5:
+        names.duplicates();
+        break;
+    case 6:
+        names.FindLength();
+        break;
 
-//names.duplicates();
+    default:
+        Console.WriteLine("Invalid choice");
+		break;
+}
 
+Console.WriteLine("Do you want to continue(y/n)?");
+flag = char.Parse(Console.ReadLine());
+}
 
-//names.ASort();
 
 //.....................
 
