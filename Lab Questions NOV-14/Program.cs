@@ -1,10 +1,10 @@
-﻿using Lab_Questions_NOV_14;
+﻿//using Lab_Questions_NOV_14;
 
-string[] arr = new string[10];
+//string[] arr = new string[10];
 
-var names = new Name();
+//var names = new Name();
 
-names.EnterData();
+//names.EnterData();
 
 //names.RSort();
 
@@ -12,10 +12,17 @@ names.EnterData();
 
 //names.Split();
 
-names.duplicates();
+//names.duplicates();
 
 
 //names.ASort();
 
 //.....................
+
+using Lab_Questions_NOV_14;
+
+var flight = new Flight();
+
+flight.Enter();
+flight.Check();
 
