@@ -51,7 +51,7 @@ namespace Lab_Questions_NOV_14
 
         public void Check()
         {
-            Console.WriteLine("Hello");
+            //Console.WriteLine("Hello");
 
             
             if (Time > 600 && Time < 900)
